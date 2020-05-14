@@ -1,0 +1,64 @@
+										@@@@@@@@@@ - AULA 01 : NOSSA PRIMEIRA CLASSE - @@@@@@@@@@
+													Projeto 01-ByteBank
+-------------------------------------------------------------------------------------------------------------------------------
+O (new), antes do nome do projeto (ContaCorrente), cria o objeto na memória do computador.
+-------------------
+Uma classe define os membros e a estrutura que os objetos deste tipo de classe devem seguir.
+Uma classe é a especificação para a criação de um objeto na memória do computador.
+-------------------
+Benefícios da POO (Programação Orientada a Objetos).
+Reutilização de código: Com POO, não precisamos repetir o código de criação dos campos da ContaCorrente, basta reutilizar a classe.
+Organização do código : Agora que representamos conceitos por meio de classes, encontrar e organizar o código se torna muito mais simples.
+Com o código centralizado nas classes, as manutenções e alterações são pontuais: Com POO, cada classe possui responsabilidade única e temos apenas um lugar para fazer manutenção.
+-------------------
+Sobre a convenção de nomes de arquivos de código.
+Cada palavra deve começar com letra em maiúsculo:  Por exemplo, utilizamos "ContaCorrente.cs" no lugar de "Contacorrente.cs".
+A primeira letra deve sempre ser em maiúsculo: O correto é nomear o arquivo como "Cliente.cs" no lugar de "cliente.cs".
+Não deve haver espaços nos nomes dos arquivos: Por exemplo, utilizamos "ContaCorrente.cs" no lugar de "Conta Corrente.cs".
+-------------------
+Expressão que representa a criação de um objeto da classe ContaCorrente
+
+new ContaCorrente(); : Com a palavra-chave new nós criamos um novo objeto do tipo especificado,
+new pe uma palavra reservada que usamos para criar objetos no C#
+-------------------------------------------------------------------------------------------------------------------------------
+										@@@@@@@@@@ - AULA 02 : TIPOS - @@@@@@@@@@
+											Projeto 02-ByteBank e 03-ByteBank
+-------------------------------------------------------------------------------------------------------------------------------
+Criando a primeira classe (ContaCorrente), que serviu como projeto da construção do objeto, por meio de: new ContaCorrente();
+-------------------
+A cópia criada por meio de new é considerada um objeto, não uma classe. E é no objeto que preencheremos os campos (titular, agência, número e saldo), que estão com seus tipos definidos (string, int e double).
+-------------------
+Quando temos uma classe e criamos um objeto a partir dela, nós referimos à cópia como instância. No caso, criamos uma instância da classe ContaCorrente e, agora, temos esse objeto.
+-------------------
+Utilizamos new para criar um novo objeto, e a variável contaDaGabriela recebe a referência para o novo objeto criado, criando uma ponte que permite o acesso aos campos (titular, agência, número e saldo) da classe ContaCorrente.
+-------------------
+Instanciar uma classe significa criar um objeto daquela classe, ou seja: objeto é o conjuto de atributos e métodos da classe. Métodos são 'Funções' que alteram o comportamento dos objetos.
+-------------------
+(+=) : Operadores de atribuição e incremento.
+-------------------
+Variáveis locais precisam ser explicitamente inicializadas, ao contrário dos campos de classes.
+-------------------
+todo campo de classe vem inicializado com valor padrão
+-------------------
+Na linguagem C#, existem dois tipos de tipos de variáveis:
+Exemplos no projeto - 03-ByteBank
+Tipo de valor: Quando falamos que a variável idade tem valor igual a 27, consideramos que a variável recebeu o valor 27. O mesmo acontece com idadeMaisUmaVez. Se compararmos 27 com 27, o resultado da execução é verdadeiro (True).
+Tipo de referência: Ao utilizar a palavra reservada new, estamos criando o objeto, em algum lugar da memória do computador. Atribuí-lo à variável de tipo de referência, é como se fizéssemos uma flecha que sai da variável e vai até o local do objeto, na memória do computador.
+Essa variável não é o objeto, de fato. Mas ela guarda o endereço dele. Quando criamos o primeiro objeto (contaDaGabriela), ele foi armazenado em algum lugar da memória. Ao utilizarmos new para contaDaGabrielaCosta, criamos outro objeto, em outro lugar aleatório da memória. Assim, cada variável aponta para seu respectivo local de armazenamento
+No momento em que fizemos a igualdade entre as contas, considerando que os valores não são referências do mesmo local da memória, os endereços que cada uma dessas variáveis guardam são diferentes, em função do uso da palavra reservada new. Ou seja, temos referências e não valores. Diferente dos tipos que guardam valores numéricos, como tipo inteiro (int), double ou até tipos primitivos short.
+(contaDaGabriela = contaDaGabrielaCosta) : Com duas variáveis que apontam para o mesmo objeto, na memória do computador, ao executarmos, teremos True na última linha do resultado, temos duas variáveis que guardam referências do mesmo objeto.
+-------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+F:\ByteBank\01-ByteBank\bin\Debug\01-ByteBank.exe.config
+F:\ByteBank\01-ByteBank\bin\Debug\01-ByteBank.exe
+F:\ByteBank\01-ByteBank\bin\Debug\01-ByteBank.pdb
+F:\ByteBank\01-ByteBank\obj\Debug\01-ByteBank.csprojAssemblyReference.cache
+F:\ByteBank\01-ByteBank\obj\Debug\01-ByteBank.csproj.CoreCompileInputs.cache
+F:\ByteBank\01-ByteBank\obj\Debug\01-ByteBank.exe
+F:\ByteBank\01-ByteBank\obj\Debug\01-ByteBank.pdb
